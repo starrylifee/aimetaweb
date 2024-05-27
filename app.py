@@ -13,17 +13,7 @@ app = Flask(__name__)
 # 환경 변수에서 API 키를 읽어들임
 api_keys = [
     os.environ.get('API_KEY1'),
-    os.environ.get('API_KEY2'),
-    os.environ.get('API_KEY3'),
-    os.environ.get('API_KEY4'),
-    os.environ.get('API_KEY5'),
-    os.environ.get('API_KEY6'),
-    os.environ.get('API_KEY7'),
-    os.environ.get('API_KEY8'),
-    os.environ.get('API_KEY9'),
-    os.environ.get('API_KEY10'),
-    os.environ.get('API_KEY11'),
-    os.environ.get('API_KEY12')
+    os.environ.get('API_KEY2')
 ]
 
 # 유효한 API 키 필터링
