@@ -1,0 +1,5 @@
+Flask==2.0.2
+firebase-admin==5.2.0
+openai==0.11.0
+toml==0.10.2
+werkzeug==2.0.3
